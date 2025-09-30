@@ -104,3 +104,17 @@ footer {
   color: #777;
   font-size: 14px;
 }
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap; /* บังคับขึ้นบรรทัดใหม่ */
+  justify-content: center; /* จัดตรงกลาง */
+  gap: 10px; /* เว้นระยะห่าง */
+  max-width: 500px; /* กำหนดความกว้างสูงสุด */
+  margin: auto;
+}
+
+.buttons a {
+  flex: 1 1 calc(50% - 20px); /* ให้แต่ละปุ่มกว้างครึ่งหนึ่ง */
+  text-align: center;
+}
