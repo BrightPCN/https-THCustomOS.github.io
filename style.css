@@ -1,0 +1,106 @@
+/* พื้นหลัง + ฟอนต์ */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0d0d0d;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* หัวเรื่อง */
+h1 {
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+/* ปุ่ม */
+.buttons {
+  margin: 20px 0 40px 0;
+}
+
+.btn {
+  background-color: #e63946;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ff4d5a;
+}
+
+.btn.outline {
+  background: transparent;
+  border: 2px solid #e63946;
+  color: #e63946;
+}
+
+.btn.outline:hover {
+  background: #e63946;
+  color: white;
+}
+
+.btn.small {
+  background: transparent;
+  border: 2px solid #e63946;
+  color: #e63946;
+  padding: 6px 15px;
+  font-size: 14px;
+}
+
+.btn.small:hover {
+  background: #e63946;
+  color: #fff;
+}
+
+/* กล่อง content */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  flex: 1;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* หัวข้อการ์ด */
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+/* list */
+.card ul {
+  padding-left: 20px;
+}
+
+.card ul li {
+  margin: 10px 0;
+}
+
+/* footer */
+footer {
+  margin: 40px 0 20px;
+  color: #777;
+  font-size: 14px;
+}
